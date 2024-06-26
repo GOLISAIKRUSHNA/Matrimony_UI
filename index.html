@@ -1,119 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>TechSpydy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifePartner</title>
     <link rel="shortcut icon" href="./Images/marriage/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dekko&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container" >
-        <nav class="nav-bar">
-            <img class="logo" src="./Images/marriage/logo-remove.png" alt="nhi hai">
-            <!-- <h1 style="color:rgb(0, 255, 242); border-radius: 10px;"></h1> -->
-            <div class="menu">  
-                <a  href="#">Home</a>
-                <a  href="#about">About Us</a>
-                <a href="#services">Services</a>
-                <a  href="#con">Contact</a>
-                <a target="_blank" href="#">Login</a>
-
-            </div>
-        </nav>
-
-        
-             <div class="DEV" ><h1 style="text-align: left; color:rgb(234, 250, 6);padding-top: 470px;padding-left: 0px;background-color: lig;">World's No.1 Matrimony site</h1>
-       
-    </div>
-W
-            
-        
-
-    </div>
-    
-    </header>
-
-    
-
-    
-
-
-    <main class="bg">
-
-    <h2 class="section-heading" id="services"> SERVICES</h2>
-
-    <section class="services">
-        <div class="services-box">
-            <h2>Marriage1</h2>
-            <img src="/Images/marriage/check1.jpeg" class="services-img" alt="">
-        </div>
-        
-        <div class="services-box">
-            <h2>Marriage2</h2>
-            <img src="/Images/marriage/check3.jpg" class="services-img" alt="">
-
-        </div>
-        <div class="services-box">
-            <h2>Marriage3</h2>
-
-            <img src="/Images/marriage/check5.jpg" class="services-img" alt="">
-
-        </div>
-        <div class="services-box">
-            <h2>Marriage4</h2>
-
-            <img src="/Images/marriage/check6.jpg" class="services-img" alt="">
-
-        </div>
-
-
-    </section>
-    </main>
-
-   
-
-  <div>
-   <center> <button style="background-color: red;color: white;border-radius: 10px;padding: 10px; margin-bottom: 30px;font-size: 15px;">Let's GetStarted</button></center>
-  </div>
-
-    <section id="services" class="services">
         <div class="container">
-            <h1 style="color: hotpink">Service's We Provide</h1>
+            <nav class="nav-bar">
+                <img class="logo" src="./Images/marriage/5.png" alt="Logo">
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <a target="_blank" href="#">Login</a>
+                </div>
+            </nav>
+            <div class="hero">
+                <h1>World's No.1 Matrimony site</h1>
+            </div>
+        </div>
+    </header>
+    <main class="bg">
+        <h2 class="section-heading" id="services">SERVICES</h2>
+        <section class="services">
+            <div class="services-box">
+                <h2>Marriage1</h2>
+                <img src="/Images/marriage/check1.jpeg" class="services-img" alt="Marriage1">
+            </div>
+            <div class="services-box">
+                <h2>Marriage2</h2>
+                <img src="/Images/marriage/check3.jpg" class="services-img" alt="Marriage2">
+            </div>
+            <div class="services-box">
+                <h2>Marriage3</h2>
+                <img src="/Images/marriage/check5.jpg" class="services-img" alt="Marriage3">
+            </div>
+            <div class="services-box">
+                <h2>Marriage4</h2>
+                <img src="/Images/marriage/check6.jpg" class="services-img" alt="Marriage4">
+            </div>
+        </section>
+    </main>
+    <div class="get-started">
+        <button>Let's Get Started</button>
+    </div>
+    <section class="services" id="service-details">
+        <div class="container">
+            <h1 class="pro">Service's We Provide</h1>
             <div class="service-cards">
                 <div class="card">
-                <center>    <h1>Profile Matching</h1></center> 
+                    <h2>Profile Matching</h2>
                     <p>Our advanced algorithms ensure you find the most compatible profiles.</p>
                 </div>
                 <div class="card">
-                  <center> <h1>Privacy Protection</h1></center> 
+                    <h2>Privacy Protection</h2>
                     <p>Your privacy is our priority. We ensure your information is secure.</p>
                 </div>
                 <div class="card">
-                    <center><h1>24/7 Support</h1></center>
+                    <h2>24/7 Support</h2>
                     <p>Our support team is available around the clock to assist you.</p>
                 </div>
             </div>
         </div>
     </section>
-
-
     
-    
-
-    <section id="contact" class="contact contactus">
-        <section id="about" class="about">
-            <div class="container about">
-                <h1 style="color: hotpink;">About Us</h1>
-                <p>We are dedicated to helping you find your perfect match. With years of experience and thousands of successful matches, we provide a reliable and trusted platform for matrimonial services.</p>
-            </div>
-        </section>
-        <div class="container " id="con">
-            
-          <center> <h1 style="color: hotpink;background: rgb(110, 110, 110);">Contact Us</h1></center> 
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
             <form>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required placeholder="Name">
@@ -124,22 +85,15 @@ W
                 <button type="submit" class="btn">Send</button>
             </form>
         </div>
-        
     </section>
-
-    <footer >
-       
-      <p style="color: white;">&copy; 2024 Matrimony. All Rights Reserved.</p>
+    <section class="about" id="about">
+        <div class="container">
+            <h1>About Us</h1>
+            <p class="para">We are dedicated to helping you find your perfect match. With years of experience and thousands of successful matches, we provide a reliable and trusted platform for matrimonial services.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Matrimony. All Rights Reserved.</p>
     </footer>
-
-
-
-
-
-  
-
-   
-
-    
 </body>
 </html>
